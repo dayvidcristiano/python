@@ -1,4 +1,4 @@
-NumCarros = int(input("Digite o número de carros vendidos:"))
+NumCarros = float(input("Digite o número de carros vendidos:"))
 ValorVendas = float(input("Valor total de vendas:"))
 SalarioFixo = float(input("Salário fixo:"))
 ComissaoFixa = float(input("Comissão por venda:"))
