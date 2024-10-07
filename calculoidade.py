@@ -1,10 +1,10 @@
 #Faça um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: A idade dessa pessoa e, quantos anos ela terá em 2028.
 
-AnoNascimento = int(input("Digite o ano em que você nasceu:"));
-AnoAtual = int(input("Digite o ano em que você está:"));
+anoNascimento = int(input("Digite o ano em que você nasceu:"))
+anoAtual = int(input("Digite o ano em que você está:"))
 
-Idade = AnoAtual - AnoNascimento
-Futuro = 2028 - AnoNascimento
+idade = anoAtual - anoNascimento
+futuro = 2028 - anoNascimento
 
-print("Você tem: ", Idade, "anos");
-print("Em 2028 você terá: ", Futuro);
+print("Você tem: ", idade, "anos")
+print("Em 2028 você terá: ", futuro)

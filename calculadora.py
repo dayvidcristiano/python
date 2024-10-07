@@ -1,16 +1,16 @@
 #Escreva um programa que declare duas variáveis inteiras, atribua valores a elas e exiba a soma, subtração, multiplicação e divisão desses dois números.
 
-NumeroInt1 = int(input("Digite um número inteiro:"));
-NumeroInt2 = int(input("Digite outro número inteiro:"));
+numeroInt1 = int(input("Digite um número inteiro:"))
+numeroInt2 = int(input("Digite outro número inteiro:"))
 
-Soma = (NumeroInt1 + NumeroInt2);
-Subt = (NumeroInt1 - NumeroInt2);
-Div =  (NumeroInt1 / NumeroInt2);
-Mult = (NumeroInt1 * NumeroInt2);
+soma = (numeroInt1 + numeroInt2)
+subt = (numeroInt1 - numeroInt2)
+div =  (numeroInt1 / numeroInt2)
+mult = (numeroInt1 * numeroInt2)
 
-print("Soma dos números: ", Soma);
-print("Subtração dos números: ", Subt);
-print("Divisão dos números: ", Div);
-print("Multiplicação dos números: ", Mult);
+print("Soma dos números: ", soma)
+print("Subtração dos números: ", subt)
+print("Divisão dos números: ", div)
+print("Multiplicação dos números: ", mult)
 
 
